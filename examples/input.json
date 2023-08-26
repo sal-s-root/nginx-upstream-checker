@@ -1,0 +1,12 @@
+{
+  "upstreams": [
+    {
+      "endpoint": "api:8080",
+      "weight": 2
+    },
+    {
+      "endpoint": "backup:8080",
+      "down": true
+    }
+  ]
+}
